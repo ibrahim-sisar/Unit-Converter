@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+.man{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 110px;
+}
+li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    margin: 10px 0;
+}
+input{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    font-size: 20px;
+}
+select{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.had{
+    display: none;
+  }
